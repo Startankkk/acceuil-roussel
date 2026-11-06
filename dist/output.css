@@ -266,6 +266,9 @@
     border-top-style: var(--tw-border-style);
     border-top-width: 1px;
   }
+  .border-creme {
+    border-color: var(--color-creme);
+  }
   .border-framboise {
     border-color: var(--color-framboise);
   }
