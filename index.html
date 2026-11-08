@@ -10,20 +10,20 @@
             <link rel="stylesheet" href="dist/output.css">
 </head>
     <body>
-        <header>
-        <div class=" flex gap-2 items-center justify-between max-w-full bg-creme px-4 py-2">
-            <a href="#" class="flex items-center">
-                <img src="images/logo-roussel.svg" alt="Logo Fleur Roussel" class="pr-2">
-                <p class="text-bordeaux text-3xl font-titre font-bold">
-                    Fleur Roussel
-                </p>
-            </a>  
-                <a href="#" class="flex justify-between bg-framboise text-white px-5 py-2 rounded-full">
-                    Commander
-                </a>
-            </div>
-        <nav>
-            <ul class="flex justify-between items-center bg-creme px-4 py-2 text-encre font-titre font-bold">
+        <header class="md:flex md:flex-row md:justify-between md:items-center md:gap-2 md:px-8 md:py-2 md:bg-creme">
+                <div class=" flex gap-2 items-center justify-between max-w-full bg-creme px-4 py-2 md:contents">
+                    <a href="#" class="flex items-center md:order-1">
+                        <img src="images/logo-roussel.svg" alt="Logo Fleur Roussel" class="pr-2">
+                        <p class="text-bordeaux text-2xl font-titre font-bold">
+                            Fleur Roussel
+                        </p>
+                    </a>
+                    <a href="#" class="flex justify-between bg-framboise text-white px-5 py-2 rounded-full md:order-3">
+                        Commander
+                    </a>
+                </div> 
+        <nav class="md:order-2">
+            <ul class="flex justify-between items-center bg-creme px-4 py-2 text-encre font-titre font-bold md:gap-6 ">
                 <li>
                     <a href="#">Bouquets</a>
                 </li>
@@ -39,14 +39,14 @@
             </ul>
         </nav>
 </header>
-        <section class=" px-4 flex flex-col items-left justify-center gap-5 bg-creme py-10">
+        <section class=" px-4 flex flex-col items-left justify-center gap-5 bg-creme py-10 md:px-8">
             <p class="text-sauge font-text font-normal">
                 Artisan fleuriste à Blois depuis 1998
             </p>
-            <h1 class="text-encre text-4xl font-titre font-bold">
+            <h1 class="text-encre text-4xl font-titre font-bold ">
                 Des fleurs de saison, composées à la main
             </h1>
-            <p class="text-encre/80 text-left font-text font-normal"> 
+            <p class="text-encre/80 text-left font-text font-normal "> 
                 Bouquets du marché, roses anciennes et compositions champêtres : chaque semaine, Madame Roussel choisit les plus belles fleurs des producteurs de la région.
             </p>
             <div class="flex gap-5 flex flex-col">
@@ -61,7 +61,8 @@
                 <img src="images/bouquet-vase.svg" alt="Fleur Roussel" class="rounded-2xl">
             </div>
         </section>
-        <section class="p-4 flex flex-col items-left justify-center gap-5 bg-white py-10">
+        
+        <section class="p-4 flex flex-col items-left justify-center gap-5 bg-white py-10 md:px-8">
             <div>
                 <h2 class="text-encre text-3xl font-titre font-bold">
                     Les bouquets de la semaine
@@ -126,7 +127,7 @@
             </div>
         </section>
 
-        <section class="flex flex-col p-4 gap-5 bg-petale py-10">
+        <section class="flex flex-col p-4 gap-5 bg-petale py-10 md:px-8 ">
             <div class="flex flex-col">
                 <h2 class ="text-encre text-3xl font-titre font-bold">
                     Pourquoi choisir Fleurs Roussel ?
@@ -160,7 +161,7 @@
                 </div>
             </div>
         </section>
-        <section class="p-4 gap-5 bg-sauge py-16">
+        <section class="p-4 gap-5 bg-sauge py-16 md:px-8">
             <div>
                 <div>
                     <img src="images/atelier.svg" alt="" class="rounded-3xl">
@@ -188,7 +189,7 @@
             </div>
         </section>
 
-        <footer class ="bg-encre">
+        <footer class ="bg-encre md:px-8">
             <div>
                 <div class="text-left items-left justify-left p-4 gap-5  py-12">
                     <h2 class="text-2xl font-titre font-bold text-creme">
